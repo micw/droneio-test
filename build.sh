@@ -11,4 +11,4 @@ cd /tmp; wget "http://ftp.debian.org/debian/pool/main/d/debian-archive-keyring/d
 sudo dpkg -i /tmp/debian-archive-keyring_2014.3_all.deb
 
 sudo mkdir -p /target/jessie-amd64-sysv
-#sudo debootstrap jessie /target/jessie-amd64-sysv
+#sudo debootstrap --arch=amd64 jessie /target/jessie-amd64-sysv
